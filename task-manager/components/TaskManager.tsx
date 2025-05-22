@@ -61,12 +61,33 @@ const TaskManager = () => {
 }
 
 const styles = StyleSheet.create({
-    container: { padding: 20 },
-  header: { fontSize: 24, fontWeight: 'bold', marginBottom: 10 },
-  input: { borderWidth: 1, borderColor: '#ccc', padding: 8, marginBottom: 10 },
-  task: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 10 },
-  completed: { textDecorationLine: 'line-through', color: 'gray' },
-  notCompleted: { color: 'black' },
+  container: { 
+    padding: 20 
+},
+  header: { 
+    fontSize: 24, 
+    fontWeight: 'bold', 
+    marginBottom: 10 
+},
+  input: { 
+    borderWidth: 1, 
+    borderColor: '#ccc', 
+    padding: 8, 
+    marginBottom: 10 
+},
+  task: { 
+    flexDirection: 'row', 
+    alignItems: 'center', 
+    justifyContent: 'space-between', 
+    marginBottom: 10 
+},
+  completed: { 
+    textDecorationLine: 'line-through', 
+    color: 'gray' 
+},
+  notCompleted: { 
+    color: 'black' 
+},
   });
 
 export default TaskManager;
