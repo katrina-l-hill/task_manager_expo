@@ -23,10 +23,6 @@ const TaskManager = () => {
     };
 
     const toggleTaskCompletion = (taskId: number) => {
-        // const updatedTasks = tasks.map((task) => {
-        //     task.id === taskId ? { ...task, completed: !task.completed } : task
-        // });
-        // setTasks(updatedTasks);
         setTasks(
             tasks.map(task => 
                 task.id === taskId ? { ...task, completed: !task.completed } : task
